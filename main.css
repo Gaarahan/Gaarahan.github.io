@@ -1,0 +1,272 @@
+html{
+  font-size: 10px;
+}
+body {
+  background-color: black;
+  width: 128rem;
+  margin: auto;
+}
+/*顶部栏*/
+.logo-con,.bar-con{
+  float: left;
+}
+.header {
+  z-index: 1000;
+  background: url('images/starfield-banner.jpg ');
+  position: fixed;
+  top: 0;
+  width: 128rem;
+  height: 12rem;
+}
+.header .logo-link {
+  padding: 1rem;
+}
+.header .logo {
+  width:10rem;
+  margin:1.1rem;
+}
+.bar-con{
+  text-align: center;
+}
+.bar-con a{
+  text-decoration: none;
+}
+.bar-con a:hover{
+  text-decoration: underline;
+}
+.bar-up .up-link-con:nth-child(1){
+  margin-left: 10rem;
+}
+
+.up-search-con{
+  position: relative;
+  height: 2.5rem;
+  display: inline-block;
+}
+.up-search-con input{
+  background-color: #444444;
+  border: none;
+  height: 2.5rem;
+  font-size: 1.6rem;
+  padding-left: 1rem;
+  width: 15rem;
+}
+.up-search-con img{
+  position: absolute;
+  width: 3rem;
+}
+.up-search-con label{
+  height: 2.5rem;
+  display: inline-block;
+  position: relative;
+}
+.up-search-con label img{
+  right: .3rem;
+}
+.share-img{
+  top: 0;
+  right: -4rem;
+}
+
+/*上下导航链接*/
+.up-link-con{
+  margin: .9rem 0;
+  padding: .5rem 1.1rem;
+  display: inline-block;
+  font-size: 2.0rem;
+  border-right: 2px solid gray;
+}
+.bar-up .up-link-con:nth-last-child(2){
+  border: none;
+}
+.up-link,.down-link{
+  color: white;
+}
+.bar-down{
+  background-color: gray;
+  margin: 1rem;
+  padding: 1rem;
+  display: inline-block;
+}
+.down-link-con{
+  font-size: 1.5rem;
+  padding: 0 .8rem;
+  border-right: 1px silver solid;
+}
+.down-link-con:last-child{
+  border: none;
+}
+
+/*图片容器*/
+.content{
+  margin-top: 12rem;
+}
+.top:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.middle{
+  top: 25rem;
+  margin-top: 3rem;
+}
+.middle:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.bottom{
+  height: 27rem;
+}
+.bottom :after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*第一行图片*/
+.pic-left,.pic-right{
+  float: left;
+  width: 64rem;
+  height: 52rem;
+}
+.right-top,.right-bottom{
+  height: 25rem;
+}
+.pic1-con,.text1-con{
+  box-sizing: border-box;
+  float: left;
+  height: 100%;
+  width: 46%;
+}
+.text1-con{
+  background-color: #5372ff;
+  color: white;
+  font-size: 1.5rem;
+  padding: 1.2rem;
+  position: relative;
+}
+.text1-con p{
+  margin: 0;
+}
+.text1-con hr{
+  color: white;
+  width: 98%;
+}
+.text1-con p.body{
+  height: 16rem;
+}
+.right-bottom{
+  margin-top: 4rem;
+}
+
+/*第二行*/
+.middle > div{
+  float: left;
+}
+.mid-left,.video{
+  width: 35rem;
+  height: 25rem;
+}
+.mid-left{
+  margin-left: -100%;
+}
+.mid-mid{
+  width:100%;
+  height: 25rem;
+}
+.mid-mid .main{
+  margin: 0 36rem;
+  height: 100%;
+}
+.video{
+  height: 27rem;
+  margin-left: -36rem;
+}
+.video video{
+  height: 100%;
+  width: 100%;
+}
+
+/*第三行*/
+.bot-con{
+  width: 30rem;
+  float: left;
+}
+.more{
+  margin: 3rem 1rem 1rem;
+  font-size: 1.5rem;
+  height: 3rem;
+  text-align: center;
+  background-color: #00539F;
+}
+.more a{
+  color: honeydew;
+  text-decoration: none;
+}
+
+/*图片组*/
+.con{
+  margin: 2rem 1rem;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+.con .context-box{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.con span.title{
+  background-color: #93b4ff;
+  color: white;
+  display: inline-block;
+  font-size: 1.5rem;
+  padding: .7rem;
+  font-weight: 600;
+}
+.con p.context{
+  width: 100%;
+  background-color: honeydew;
+  margin: 0;
+  font-size: 1.5rem;
+  padding: .5rem;
+  font-weight: 600;
+}
+.con img{
+  width: 100%;
+  height: 100%;
+}
+
+.foot-bar{
+  position: relative;
+}
+.foot-bar>div{
+  float: left;
+}
+.left-foot{
+  width: 40rem;
+  height: 5rem;
+  color: white;
+}
+.left-foot img{
+  float: left;
+  width: 10rem;
+}
+.disc{
+  font-size: 1.6rem;
+}
+.right-foot{
+  padding: 4rem 1rem;
+  position: absolute;
+  right: 0;
+}
+.right-foot span{
+  display: inline-block;
+  padding: 0 .8rem;
+}
+.right-foot a{
+  font-size: 1.4rem;
+  color: #279aff;
+  text-decoration: none;
+}
