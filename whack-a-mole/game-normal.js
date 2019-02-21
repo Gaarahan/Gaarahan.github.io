@@ -81,5 +81,6 @@ window.onload = function () {
     });
     startBtn.innerText = "Replay!";
     startBtn.style.display = "inline-block";
+    titleH1.innerText = "TimeUp!"
   }
 };
